@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F0F3;
+    font-family: sans-serif;
+    outline: none;
+}
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+
+
+.calculator {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    left: 300px;
+    top: 100px;
+    background-color: #F0F0F3;
+    border-radius: 12px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                        5px 5px 12px rgba(0, 0, 0, 0.16);
+    display: grid;
+    grid-template-columns: repeat(4.70px);
+    
+}
+
+
+
+input{
+    grid-column: span 4;
+    height: 100px;
+    width: 160px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: rgba(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+
+button {
+
+    height: 35px;
+    width: 35px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 12px;
+    margin: 2px;
+    
+    font-size: 18px;
+    
+
+}
+
+
+.equal {
+    width: 35px;
+    border-radius: 12px;
+    background-color: #0eccc2;
+    box-shadow: -5px -5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, 0.16);
+
+}
+
+
+
+
+
+.rectangle1 {
+    position: absolute;
+    width: 109.82px;
+    height: 125.65px;
+    left: 56.57px;
+    top: 129.7px;
+    background: #F0F0F3;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 12px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 577px;
+    top: 57.58px;
+    background: #F0F0F3;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 12px;
+}
+
+.ellipse1 {
+    position: absolute;
+    border-radius: 100%;
+    width: 194px;
+    height: 194px;
+    left: 56.57px;
+    top: 452.72px;
+    background: #F0F0F3;
+    box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+}
+
+.ellipse2 {
+    position: absolute;
+    border-radius: 100%;
+    width: 124px;
+    height: 124px;
+    left: 735.11px;
+    top: 415.58px;
+    background: #F0F0F3;
+    box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+}
+
+
+
+
